@@ -135,6 +135,14 @@ The following are links to the pricing details for some of the resources:
 - [Azure AI Document Intelligence pricing](https://azure.microsoft.com/pricing/details/ai-document-intelligence/)
 - [Azure Web App Pricing](https://azure.microsoft.com/pricing/details/app-service/windows/)
 
+Deploy instructions
+There are two choices; the "Deploy to Azure" offers a one click deployment where you don't have to clone the code, alternatively if you would like a developer experience, follow the Local deployment instructions.
+
+The demo, which uses containers pre-built from the main branch is available by clicking this button:
+
+[Deploy to Azure](https://portal.azure.com/#create/Microsoft.Template)
+
+Note: The default configuration deploys an OpenAI Model "gpt-35-turbo" with version 0613. However, not all locations support this version. If you're deploying to a location that doesn't support version 0613, you'll need to switch to a lower version. To find out which versions are supported in different regions, visit the GPT-35 Turbo Model Availability page.
 ### Deploy instructions
 
 **Note**: The default configuration deploys an OpenAI Model "gpt-35-turbo" with version 0613. However, not all 
