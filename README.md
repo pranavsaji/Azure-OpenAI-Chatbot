@@ -1,5 +1,3 @@
-Azure-OpenAI-Chatbot
-User Story
 Welcome to the Azure-OpenAI-Chatbot repository! This tool is a RAG-based (Retrieval-Augmented Generation) application that combines Azure AI Search and Large Language Models (LLMs) to create a conversational search experience. It uses an Azure OpenAI GPT model and an Azure AI Search index, integrated into a web application, to provide a natural language interface, including speech-to-text functionality. Users can easily upload and transform documents.
 
 About this Repo
